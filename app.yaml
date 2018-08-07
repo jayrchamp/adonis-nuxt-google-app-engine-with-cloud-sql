@@ -1,0 +1,19 @@
+env: flex
+runtime: nodejs
+
+env_variables:
+  APP_KEY: "n96M1TPG821EdN4mMIjnGKxGytx9W2UJ"
+  API_URL: "https://adonuxtjs.appspot.com/api"
+
+  DB_CONNECTION: mysql
+  DB_HOST: "localhost"
+  DB_DATABASE: "adonuxt-db"
+  DB_USER: "root"
+  DB_PASSWORD: "password1234"
+  DB_SOCKET: "/cloudsql/adonuxtjs:northamerica-northeast1:adonuxtjs-database"
+
+beta_settings:
+    # for Cloud SQL, set this value to the Cloud SQL connection name,
+    # e.g. "project:region:cloudsql-instance"
+    cloud_sql_instances: adonuxtjs:northamerica-northeast1:adonuxtjs-database
+    
